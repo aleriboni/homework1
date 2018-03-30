@@ -24,7 +24,7 @@ The third node(listener) listen the "chatter" topic and the "keyboard/key" topic
 what part of message to display on the screen.
 
 This is the rqt_graph of the package
-![rqt_graph](images/rqt_graph_homework1.png)
+![rosgraph](images/rosgraph.png)
 
 Please, report suggestions/comments/bugs to<br>
 alessandro.riboni@studenti.univr.it
