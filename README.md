@@ -34,13 +34,16 @@ to choose what part of message to display on the screen.
 =Launch=
 
 The user can use homework1.launch to launch all nodes of the package.
-This is a screenshot of the launcher
+This is a screenshot of the launcher:
+
 ![screen launcher](images/screen_launch.png)
 
-This package has been developed on ROS Indigo (Ubuntu 14.04)
 
-This is the rqt_graph of the package
+This is the rqt_graph of the package:
+
 ![rosgraph](images/rosgraph.png)
+
+This package has been developed on ROS Indigo (Ubuntu 14.04)
 
 Please, report suggestions/comments/bugs to<br>
 alessandro.riboni@studenti.univr.it
