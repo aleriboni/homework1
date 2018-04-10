@@ -201,11 +201,11 @@ include_directories(
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
 
-add_executable(talker src/talker.cpp)
-target_link_libraries(talker ${catkin_LIBRARIES})
+add_executable(talker_h1 src/talker_h1.cpp)
+target_link_libraries(talker_h1 ${catkin_LIBRARIES})
 
-add_executable(listener_keyboard src/listener_keyboard.cpp)
-target_link_libraries(listener_keyboard ${catkin_LIBRARIES})
+add_executable(listener_keyboard_h1 src/listener_keyboard_h1.cpp)
+target_link_libraries(listener_keyboard_h1 ${catkin_LIBRARIES})
 
-add_executable(listener src/listener.cpp)
-target_link_libraries(listener ${catkin_LIBRARIES})
+add_executable(listener_h1 src/listener_h1.cpp)
+target_link_libraries(listener_h1 ${catkin_LIBRARIES})

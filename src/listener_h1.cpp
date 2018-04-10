@@ -3,13 +3,27 @@
 #include "homework1/persona.h"
 #include "string.h"
 
+
+/**
+  * In this code a node n subscribes on "/key_selected" topic to filter the
+  * message published by "/chatter" topic
+  */
 std::string temp;
 
+
+/**
+  * This callback saves the message published on the "/key_selected" topic
+  * in temp
+  */
 void keyCallback(const std_msgs::String ::ConstPtr& msg)
 {
   temp = msg->data.c_str();
 }
 
+/**
+  * This callback compares string temp with a, n, e and c to filter the
+  * message and prints the filtered mesage
+  */
 void chatterCallback(const homework1::persona& msg)
 {
 
@@ -26,13 +40,20 @@ void chatterCallback(const homework1::persona& msg)
 
 int main(int argc, char **argv)
 {
-  ros::init(argc, argv, "listener");
+  ros::init(argc, argv, "listener_h1");
 
   ros::NodeHandle n;
 
-  ros::Subscriber sub = n.subscribe("keyboard/key", 1000, keyCallback);
+  /**
+   * The subscribe() call is how you tell ROS that you want to receive messages
+   * on a given topic.
+   */
+  ros::Subscriber sub = n.subscribe("/key_selected", 1000, keyCallback);
   ros::Subscriber sub2 = n.subscribe("/chatter", 1000, chatterCallback);
 
+  /**
+   * ros::spin() will enter a loop, pumping callbacks.
+   */
   ros::spin();
 
   return 0;
