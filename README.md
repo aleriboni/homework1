@@ -49,7 +49,6 @@ This is the rqt_graph of the package:
 
 ![rosgraph](images/rosgraph.png)
 
-This package has been developed on ROS Indigo (Ubuntu 14.04)
 
 Please, report suggestions/comments/bugs to<br>
 alessandro.riboni@studenti.univr.it

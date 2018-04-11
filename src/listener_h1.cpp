@@ -8,9 +8,8 @@
   * In this code a node n subscribes on "/key_selected" topic to filter the
   * message published by "/chatter" topic
   */
+
 std::string temp;
-
-
 /**
   * This callback saves the message published on the "/key_selected" topic
   * in temp
