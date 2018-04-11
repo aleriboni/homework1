@@ -1,1 +1,0 @@
-/home/alessandro/catkin_ws/devel/.private/homework1/include/homework1/persona.h
