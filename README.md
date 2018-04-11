@@ -15,8 +15,8 @@ along with homework1. If not, see <http://www.gnu.org/licenses/>.
 The package homework1 contains three file written in C++.
 These are based on ROS to realize three node.
 
-The first node "talker_h1" publishes every second a message Pesona, that contains
-"nome", "age", "corso".
+The first node "talker_h1" publishes every second a message 'Persona', that contains
+"nome" (string), "age" (uint8), "corso" (string).
 The second one (listener_keyboard_h1) allows the user to select from keyboard which part of the message
 to display on the screen.
 The last one print the part of message filtered by user previously.
