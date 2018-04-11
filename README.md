@@ -8,7 +8,9 @@ GNU Lesser General Public License for more details.
 You should have received a copy of the GNU Lesser General Public License
 along with homework1. If not, see <http://www.gnu.org/licenses/>.
 
-=Description=
+# First homework of Laboratorio Ciberfisico
+
+## Description
 
 The package homework1 contains three file written in C++.
 These are based on ROS to realize three node.
@@ -20,21 +22,25 @@ to display on the screen.
 The last one print the part of message filtered by user previously.
 
 
-=Implementation=
+## Implementation
 
-The first node (talker_h1) publishes every second a message on "/chatter" topic.
- .
-The second node (listener_keyboard_h1) listen the keyboard and when the user selected a key publish a message on
+* The first node (talker_h1) publishes every second a message on "/chatter" topic.
+
+* The second node (listener_keyboard_h1) listen the keyboard and when the user selected a key publish a message on
 "key_selected" topic.
 
-The third node (listener_h1) listen the "/chatter" topic and the "key_selected" topic and use these information
+* The third node (listener_h1) listen the "/chatter" topic and the "key_selected" topic and use these information
 to choose what part of message to display on the screen.
 
 
-=Launch=
+## Launch
 
 The user can use homework1.launch to launch all nodes of the package.
 This is a screenshot of the launcher:
+
+```
+roslaunch homework1 homework1.launch
+```
 
 ![screen launcher](images/screen_launch.png)
 
