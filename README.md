@@ -1,13 +1,3 @@
-This file is distributed under the terms of the GNU Lesser General Public License (Lesser GPL)
-
-homework1 is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Lesser General Public License for more details.
-
-You should have received a copy of the GNU Lesser General Public License
-along with homework1. If not, see <http://www.gnu.org/licenses/>.
-
 # First homework of Laboratorio Ciberfisico
 
 ## Description
@@ -68,10 +58,19 @@ This is the rqt_graph of the package:
 
 ## Author
 
-* **Alessandro Riboni**
-* *official git repostory* - [aleriboni](https://github.com/aleriboni)
+* **Alessandro Riboni* - *official git repostory* - [aleriboni](https://github.com/aleriboni)
 
 ## License
+
+This file is distributed under the terms of the GNU Lesser General Public License (Lesser GPL)
+
+homework1 is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with homework1. If not, see <http://www.gnu.org/licenses/>.
 
  [LICENSE](LICENSE)
 
