@@ -21,6 +21,12 @@ The second one (listener_keyboard_h1) allows the user to select from keyboard wh
 to display on the screen.
 The last one print the part of message filtered by user previously.
 
+User can select to display:
+* all fields of message 'persona' (digit 'a')
+* only age (digit 'e')
+* only course of studies (digit 'c')
+* only name (digit 'n')
+
 
 ## Implementation
 
@@ -32,6 +38,12 @@ The last one print the part of message filtered by user previously.
 * The third node (listener_h1) listen the "/chatter" topic and the "key_selected" topic and use these information
 to choose what part of message to display on the screen.
 
+## Clone repository
+
+
+```
+git clone https://github.com/aleriboni/homework1.git
+```
 
 ## Launch
 
@@ -49,6 +61,19 @@ This is the rqt_graph of the package:
 
 ![rosgraph](images/rosgraph.png)
 
+
+## Framework
+
+* [ROS](http://wiki.ros.org/)
+
+## Author
+
+* **Alessandro Riboni**
+* *official git repostory* - [aleriboni](https://github.com/aleriboni)
+
+## License
+
+ [LICENSE](LICENSE)
 
 Please, report suggestions/comments/bugs to<br>
 alessandro.riboni@studenti.univr.it
