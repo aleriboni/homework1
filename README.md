@@ -49,7 +49,7 @@ roslaunch homework1 homework1.launch
 
 This is the rqt_graph of the package:
 
-![rosgraph](images/rosgraph.png)
+![rosgraph_h1](images/rosgraph_h1.png)
 
 
 ## Framework
